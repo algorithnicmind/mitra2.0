@@ -77,7 +77,7 @@ app.use('/api/auth', authRoutes);
 // app.use('/api/admin', adminRoutes);         // Section 8
 
 // 404 handler
-app.use('*', (req, res) => {
+app.use((req, res) => {
   res.status(404).json({
     success: false,
     error: {
