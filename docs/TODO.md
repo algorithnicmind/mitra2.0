@@ -58,9 +58,9 @@
 - [x] User model
 - [x] Assessment model
 - [x] ChatMessage model
-- [ ] Appointment model
-- [ ] MoodEntry model
-- [ ] ForumPost model
+- [x] Appointment model
+- [x] MoodEntry model
+- [x] ForumPost model
 - [ ] ForumComment model
 - [ ] Resource model
 
