@@ -74,13 +74,13 @@
 
 **Backend:**
 
-- [ ] Auth controller (register, login, getMe, updateProfile)
-- [ ] Auth routes
-- [ ] JWT middleware (`auth.js`)
-- [ ] Role check middleware (`roleCheck.js`)
-- [ ] Input validation (Joi schemas)
-- [ ] Password hashing (bcrypt)
-- [ ] Anonymous alias generator
+- [x] Auth controller (register, login, getMe, updateProfile)
+- [x] Auth routes
+- [x] JWT middleware (`auth.js`)
+- [x] Role check middleware (`roleCheck.js`) — included in auth.js
+- [x] Input validation (Joi schemas)
+- [x] Password hashing (bcrypt)
+- [x] Anonymous alias generator
 
 **Frontend:**
 
