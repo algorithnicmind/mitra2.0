@@ -62,7 +62,7 @@
 - [x] MoodEntry model
 - [x] ForumPost model
 - [x] ForumComment model
-- [ ] Resource model
+- [x] Resource model
 
 **🔍 Review Point**: All models validate correctly ✅
 
