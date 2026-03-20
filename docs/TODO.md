@@ -55,9 +55,9 @@
 
 > All Mongoose schemas
 
-- [ ] User model
-- [ ] Assessment model
-- [ ] ChatMessage model
+- [x] User model
+- [x] Assessment model
+- [x] ChatMessage model
 - [ ] Appointment model
 - [ ] MoodEntry model
 - [ ] ForumPost model
