@@ -100,7 +100,7 @@
 > React + Vite + Tailwind setup, layout, design system
 
 - [x] Initialize React project with Vite
-- [ ] Configure Tailwind CSS
+- [x] Configure Tailwind CSS
 - [x] Set up project structure (components, pages, services, hooks, context)
 - [ ] Create design system (CSS variables, global styles)
 - [ ] Build Layout component (Header + navigation)
