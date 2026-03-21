@@ -1,5 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import { useTheme } from '../context/ThemeContext';
 import { 
   LogOut, 
   Menu, 
@@ -7,12 +8,15 @@ import {
   MessageSquare, 
   Activity, 
   Calendar, 
-  Map as MapIcon 
+  Map as MapIcon,
+  Moon,
+  Sun
 } from 'lucide-react';
 import { useState } from 'react';
 
 const Header = () => {
   const { isAuthenticated, user, logout } = useAuth();
+  const { theme, toggleTheme } = useTheme();
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -59,6 +63,14 @@ const Header = () => {
 
           {/* User Actions */}
           <div className="hidden md:flex items-center space-x-4">
+            <button
+              type="button"
+              onClick={toggleTheme}
+              className="p-2 text-gray-500 hover:text-indigo-600 hover:bg-indigo-50 rounded-full transition-colors"
+              title="Toggle Dark Mode"
+            >
+              {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+            </button>
             {isAuthenticated ? (
               <div className="flex items-center gap-4 border-l pl-4 border-gray-200">
                 <div className="flex items-center gap-2 text-sm font-medium text-gray-700 bg-gray-50 py-1.5 px-3 rounded-full border border-gray-100">
@@ -93,7 +105,14 @@ const Header = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="flex items-center md:hidden">
+          <div className="flex items-center gap-2 md:hidden">
+            <button
+              type="button"
+              onClick={toggleTheme}
+              className="p-2 text-gray-500 hover:text-indigo-600 rounded-full transition-colors"
+            >
+              {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+            </button>
             <button
               type="button"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
