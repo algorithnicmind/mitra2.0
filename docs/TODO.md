@@ -105,8 +105,8 @@
 - [x] Create design system (CSS variables, global styles)
 - [x] Build Layout component (Header + navigation)
 - [x] Build common components (Button, Card, Input, Modal)
-- [ ] Set up React Router with all routes
-- [ ] Create Home page
+- [x] Set up React Router with all routes
+- [x] Create Home page
 - [ ] Dark mode toggle
 - [ ] Responsive navigation
 
