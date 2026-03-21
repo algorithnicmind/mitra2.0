@@ -25,7 +25,7 @@ export const AuthProvider = ({ children }) => {
         try {
           const data = await getMe();
           setUser(data.user);
-        } catch (_err) {
+        } catch {
           // Token is invalid or expired
           localStorage.removeItem('mitra_token');
           localStorage.removeItem('mitra_user');
