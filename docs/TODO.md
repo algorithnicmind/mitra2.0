@@ -104,7 +104,7 @@
 - [x] Set up project structure (components, pages, services, hooks, context)
 - [x] Create design system (CSS variables, global styles)
 - [x] Build Layout component (Header + navigation)
-- [ ] Build common components (Button, Card, Input, Modal)
+- [x] Build common components (Button, Card, Input, Modal)
 - [ ] Set up React Router with all routes
 - [ ] Create Home page
 - [ ] Dark mode toggle
