@@ -84,12 +84,12 @@
 
 **Frontend:**
 
-- [ ] Login page
-- [ ] Register page
-- [ ] AuthContext provider
-- [ ] Protected route component
-- [ ] API service setup (axios)
-- [ ] Auth service (login, register, getMe)
+- [x] Login page
+- [x] Register page
+- [x] AuthContext provider
+- [x] Protected route component
+- [x] API service setup (axios)
+- [x] Auth service (login, register, getMe)
 
 **🔍 Review Point**: Can register, login, and access protected routes ✅
 
