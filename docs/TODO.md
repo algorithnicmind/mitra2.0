@@ -107,8 +107,8 @@
 - [x] Build common components (Button, Card, Input, Modal)
 - [x] Set up React Router with all routes
 - [x] Create Home page
-- [ ] Dark mode toggle
-- [ ] Responsive navigation
+- [x] Dark mode toggle
+- [x] Responsive navigation
 
 **🔍 Review Point**: App loads with beautiful layout and navigation ✅
 
