@@ -244,7 +244,7 @@
 - [ ] Deploy backend (Render)
 - [ ] Deploy AI service (Render)
 - [ ] End-to-end testing
-- [ ] README.md for root project
+- [x] README.md for root project
 
 **🔍 Review Point**: Polished, deployed, demo-ready ✅
 
